@@ -11,28 +11,47 @@ namespace conditional_statements
         static void Main(string[] args)
         {
             Console.WriteLine("Ohjelma tulostaa positiivinen, negatiivinen tai nolla.");
-            Console.Write("Syötä luku: ");
-            string userInput;
-            userInput = Console.ReadLine();
-
-            int evaluatedNumber;
-            int.TryParse(userInput, out evaluatedNumber);
-
-            if(evaluatedNumber < 0)
+            bool isNumber;
+            do
             {
-                Console.WriteLine($"Numero {evaluatedNumber} on negatiivinen.");
-            }
 
-            else if (evaluatedNumber > 0)
-            {
-                Console.WriteLine($"Numero {evaluatedNumber} on positiivinen.");
-            }
+                Console.Write("Syötä luku: ");
+                string userInput;
+                userInput = Console.ReadLine();
 
-            else
-            {
-                Console.WriteLine($"Numero {evaluatedNumber} on nolla.");
-            }
+                int evaluatedNumber;
+                isNumber = int.TryParse(userInput, out evaluatedNumber);
 
+                if (isNumber == true)
+
+                {
+
+                    if (evaluatedNumber < 0)
+                    {
+                        Console.WriteLine($"Luku {evaluatedNumber} on negatiivinen.");
+                    }
+
+                    else if (evaluatedNumber > 0)
+                    {
+                        Console.WriteLine($"Luku {evaluatedNumber} on positiivinen.");
+                    }
+
+                    else
+                    {
+                        Console.WriteLine($"Luku {evaluatedNumber} on nolla.");
+                    }
+
+                }
+
+                else
+
+                {
+
+                    Console.WriteLine("Ei ole numero.");
+
+                }
+
+            } while (isNumber == false);
             Console.ReadKey();
         }
     }
