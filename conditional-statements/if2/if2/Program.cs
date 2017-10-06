@@ -82,7 +82,7 @@ namespace if2
 
                     else
                     {
-                        Console.WriteLine(" Lapsi pääsee ilmaiseksi.");
+                        Console.WriteLine("Lapsi pääsee ilmaiseksi.");
                     }
 
                 } Console.ReadKey();
