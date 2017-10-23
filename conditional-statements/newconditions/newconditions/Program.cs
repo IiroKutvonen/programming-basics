@@ -6,17 +6,15 @@ namespace newconditions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            while (true)
+            
+            Console.WriteLine("Ohjelma tulostaa luvut 1-10 ja tulostaa niiden neliöjuuret.");
+
+            for (int i = 0; i <= 10; i++)
             {
-                ConsoleKeyInfo userInput = Console.ReadKey(true);
-                Console.Write("Y");
-                if (userInput.Key.ToString() == "Y")
-                    break;
-                //string xxx = userInput.Key.ToString();
+                Console.WriteLine($"{i}\t{Math.Sqrt(i):f2}");
             }
-            Console.WriteLine("Ohjelman suoritus päättyy");
-            Console.ReadKey();
+            Console.ReadKey();    
+            
         }
     }
 }
