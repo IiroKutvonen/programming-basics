@@ -6,7 +6,8 @@ namespace SkyNet_application
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Initialize SkyNet application? y/n");
+
             while (true)
             {
                 ConsoleKeyInfo userInput = Console.ReadKey(true);
