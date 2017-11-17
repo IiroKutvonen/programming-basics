@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "funk_on", "funk_on\funk_on.csproj", "{D3C172A3-6868-4BFF-BA40-EA6BDCEEDE3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "funk_on", "funk_on\funk_on.csproj", "{D3C172A3-6868-4BFF-BA40-EA6BDCEEDE3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "funk_on2", "funk_on2\funk_on2.csproj", "{9512A42F-5D6E-4A5A-A496-D2D41B7FBAF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D3C172A3-6868-4BFF-BA40-EA6BDCEEDE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3C172A3-6868-4BFF-BA40-EA6BDCEEDE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3C172A3-6868-4BFF-BA40-EA6BDCEEDE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9512A42F-5D6E-4A5A-A496-D2D41B7FBAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9512A42F-5D6E-4A5A-A496-D2D41B7FBAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9512A42F-5D6E-4A5A-A496-D2D41B7FBAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9512A42F-5D6E-4A5A-A496-D2D41B7FBAF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
